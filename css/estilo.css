@@ -1,0 +1,286 @@
+body
+{
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+}   
+.banner
+{
+    background-color: rgb(173, 115, 228);
+    margin: 0;
+    padding: 10px;
+    
+}
+.contenedor-superior
+{
+    /* padding: 8%; */
+    text-align: center;
+    /* border: solid black; */
+}
+.main-header
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo
+{
+    width: 100%;
+    /* border: solid brown; */
+}
+.logo img
+{
+    width: 75%;
+}
+.navbar
+{
+    display: none;
+    
+}
+.navbar ul
+{
+    display: inline-flex;
+}
+.navbar li
+{
+    list-style: none;
+}
+.navbar a
+{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    background: blueviolet;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navbar-icon
+{
+    
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: none;
+}
+.navbar-icon img
+{
+    width: 100%;
+}
+h1
+{
+    font-size: 30px;
+}
+.sub-header
+{
+    width: 80%;
+    margin: auto;
+}
+.sub-header h3
+{
+    font-size: 20px;
+}
+.galery-container
+{
+    display: block;
+    background-color: coral;
+    padding: 5%;
+}
+.paint-container
+{
+    padding-bottom: 20px;
+}
+.paint
+{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 7px 12px 12px rgb(61, 58, 58) ;
+    background-color: blanchedalmond;
+    
+}
+.paint img
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form
+{
+    text-align: center;
+    padding: 10px;
+    
+}
+.comentario
+{
+    text-align: center;
+    background-color:blanchedalmond ;
+    color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(173, 115, 228);
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.boton
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(173, 115, 228);
+}
+.comunicacion
+{
+    background-color: blanchedalmond;
+}
+.coment-container
+{
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.coment-container img
+{
+    /* margin: auto; */
+    width: 80px;
+    margin-top: 50px;
+}
+.coment-holder
+{
+    background-color: white;
+    border-left: 3px solid crimson;
+    border-radius: 5px;
+    box-shadow: 7px 12px 10px thistle;
+    padding: 10% 0;
+}
+#comentario
+{
+    box-sizing: border-box;
+    height: 80%;
+    padding: 20px;
+    margin: 20px;
+    border-left: 1px double black;
+    
+}
+.contenido h4
+{
+    font-size: 25px;
+    margin: 0;
+}
+.quien-soy img
+{
+    width: 80px;
+    border-radius: 60%;
+
+}
+.quien-soy
+{
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.saludo
+{
+    margin-top: 0%;
+    font-size: 30px;
+}
+.redes
+{
+    display: inline-block;
+    padding: 30px;
+    justify-content: center;
+}
+/* .redes-icon img
+{
+} */
+.caja-face, .caja-insta
+{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.caja-face img, .caja-insta img
+{
+    display: block;
+    margin: auto;
+    width: 60px;
+}
+.caja-face ul, .caja-insta ul
+{
+    list-style: none;
+    padding: 0%;
+    /* margin: auto; */
+}
+.contactame
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 60px;
+    padding-bottom: 100px;
+}
+.contactame div
+{
+    display: inline-block;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+.contactame div button
+{
+    box-shadow: 7px 12px 10px;
+}
+.copyright
+{
+    /* display: block; */
+    margin: auto;
+    /* text-align: center; */
+}
+textarea
+{
+width: 80%;
+padding: 5px;
+margin: 10px;
+border: solid 1px black;
+}
+
+/* @media (max-width: 767px)
+{
+} */
+@media (min-width: 768px)
+{
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar-icon
+    {
+        display: none;
+    }
+    .logo
+    {
+        width: 200px;
+    }
+    .galery-container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        /* align-items: stretch; */
+
+    }
+    .paint-container
+    {
+        width: 40%;
+        box-sizing: border-box;
+        
+    }
+}
